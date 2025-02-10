@@ -8,7 +8,6 @@ import ScanbotSDK from "scanbot-web-sdk/ui";
  */
 
 function App() {
-  const [count, setCount] = useState(0)
   const [scanResult, setScanResult] = useState<string>("");
 
   useEffect(() => {
