@@ -29,6 +29,7 @@ const App = () => {
 
   return (
     <div>
+      <h1>Barcode Reader</h1>
       <button onClick={startScanner}>Start Scanner</button>
       {scanResult && <div>{scanResult}</div>}
     </div>
